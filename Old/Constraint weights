@@ -1,0 +1,70 @@
+All constraints
+
+LeftFoc -17.73113627280654
+NiFoc -15.240953066900248
+LeftP -8.297543586058897
+*Copy -10.884903044294633
+DepC -6.63450539439298
+MaxSubj -12.513103582668831
+DepSubj -5.31839167103123
+MaxObj 4.150888230937868
+DepObj -4.1470729822219194
+MaxPoss -4.147603257824862
+DepPoss 4.151586919929093
+MaxV -17.72710091222554
+DepV -17.728370356881033
+MaxAdj 0.2453335974554694
+
+All works great
+
+=====
+
+Removing all constraints with positive weights
+
+LeftFoc -17.747054860891744
+NiFoc -15.241007759668886
+LeftP -8.29754788866426
+*Copy -10.901648137777435
+DepC -6.6345070660826435
+MaxSubj -12.519669009239006
+DepSubj -5.325618045165875
+DepObj -7.681918451062741
+MaxPoss -7.681473438437885
+MaxV -17.743602128912592
+DepV -17.743595962324488
+
+All works great
+
+=====
+
+Removing DepSubj
+
+objective before minimization 13.30819875349808
+Optimization terminated successfully.
+         Current function value: 0.738884
+         Iterations: 94
+         Function evaluations: 1045
+         Gradient evaluations: 95
+objective after minimization 0.7388842025904183
+
+LeftFoc -14.361341360270762
+NiFoc -15.241124783901723
+LeftP -8.297890149475514
+*Copy -7.30522575365858
+DepC -6.634573015625774
+MaxSubj -8.040791238692494
+DepObj -7.682085976696243
+MaxPoss -7.681760659155195
+MaxV -14.359339800895366
+DepV -14.359343732203406
+
++ Adé fọ aṣọ Ìfẹ́ ní àná. 0.4990957239818833
+Adé _t_ fọ aṣọ Ìfẹ́ ní àná. 0.00016073578810238756
+Adé Adé fọ aṣọ Ìfẹ́ ní àná. 0.00033540120238286555
+Adé ó fọ aṣọ Ìfẹ́ ní àná. 0.4990957239818833
+Ni Adé fọ aṣọ Ìfẹ́ ní àná. 0.0006558815262056118
+Adé ni _t_ fọ aṣọ Ìfẹ́ ní àná. 2.1122928719037185e-07
+Adé ni Adé fọ aṣọ Ìfẹ́ ní àná. 4.4076404973979737e-07
+Adé ni ó fọ aṣọ Ìfẹ́ ní àná. 0.0006558815262056118
+
+Issue with first tableau
